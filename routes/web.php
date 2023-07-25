@@ -58,7 +58,7 @@ Route::get('/changepassword', function () {
     return view('password');
 });
 
-
+//hello 
 Route::post('/Registration',[registercontroller::class,'submit']);
 Route::post('/login',[registercontroller::class,'login']);
 Route::post('/Contact',[contactcontroller::class,'contact']);
